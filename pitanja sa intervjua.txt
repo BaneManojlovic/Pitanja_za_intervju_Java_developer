@@ -1,0 +1,74 @@
+Skype intervju:
+
+Java:
+1. razlika izmedju String, StringBuilder i StringBuffer
+2. sta je JPA?
+3. sta je JSP?
+
+SQL:
+1. Napisati upit koji selektuje sva imena iz tabele zaposleni cije ime pocinje na M
+
+HTML:
+1. Sta je DOCTYPE?
+2. Kako se pisu komentari?
+
+CSS:
+1. Sta je klasa u CSS?
+2. Sta je external Style Sheet? 
+
+Nakon ovoga imala sam jos jedan test, 6 pitanja iz jave, jedno iz javascripta i 7 pitanja iz sql-a. 30 min za taj test
+
+1. Deo koda, akcenat na exceptionima, nije sad identican ali nesto ovako, a pitanje je sta je izlaz iz programa:
+
+try{
+sout("1")
+pa onda neki izraz gde se pokusava deljenje sa 0
+sout("2")
+}
+catch(Exception e){
+sout("3")
+throw new neki exception nije vazno koji
+}
+finally (sout ("4"));
+
+2. Opet neki kod, u pitanju su dve klase, i bila je caka u tome sto klasa koja nasledjuje klasu iznad u konstruktoru nema 
+poziv super(); pa je odgovor da je compile error. Pitanje je isto bilo sta je izlaz iz tog koda, ali akcenat je na
+nasledjivanju i caka je u konstruktoru.
+
+3. Sta je jsp?
+
+4. Da li je u javi podrzano visestruko nasledjivanje i argumentovati odgovor
+
+5. Da li je ispravan natpis metode public abstract final String myMethod (){} i argumetovati odgovor
+
+6. Sta je od navedenog ispravna deklaracija:
+
+HashMap m = new HashMap();
+Map m = new HashMap();
+Map m = new Map();
+Map m = new HashSet();  // za ovo nisam sigurna da je tako bilo definisano
+
+7. pitanje iz javascripta koje nemam pojma kako ide jer ne znam js :D
+
+
+SQL:
+
+1. sta je normalizacija
+2. sta je trigger
+3. napisati upit kojim se selektuju imena zaposlenih koja pocinju na A;
+4. Nesto kao kad pravis tabelu i postavis vrednosti kolona, koju od njih ce sql automatski da popunjava?
+5. Sta se koristi kada hoces da selektujes sve kolone iz tabele
+
+Ostala 2 pitanja su bili neki teski i obimni zadaci, ali sve se vrti oko spajanja tabela, odnosno JOIN-ova, znaci sve
+te vrste joinova pa neke kombinacije.
+
+Jos neka od pitanja koja znam sa skype intervjua koja su mi rekli drugovi koji su isto bili na testranju:
+
+1. Razlika izmedju HashTable i HashMap
+2. Sta je finally block?
+3. Koja je razlika izmedju static i final varijable?
+4. Sta je garbage collector
+5. Singleton pattern
+6. Kako da promenimo neki atribut u html-u preko js
+7. sta sve mozemo da stavimo u head sekciju u html-u
+8. gde mogu da se stave input, table i script elementi
